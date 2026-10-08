@@ -1,0 +1,386 @@
+[
+  {
+    "id": "1",
+    "title": "Backyard blanket cinema",
+    "place": "home",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 120,
+    "icon": "☾",
+    "description": "Turn an ordinary movie night into your own tiny outdoor theater.",
+    "steps": [
+      "Pick a movie together from a service you already have.",
+      "Spread blankets in the yard or living room.",
+      "Bring snacks from the cupboard and put the phones away."
+    ],
+    "bring": "Blankets, a screen, and pantry snacks"
+  },
+  {
+    "id": "2",
+    "title": "The neighborhood photo hunt",
+    "place": "out",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 60,
+    "icon": "✿",
+    "description": "See your usual streets with a completely different set of eyes.",
+    "steps": [
+      "Make a list: something yellow, a funny sign, a tiny flower, a cool shadow.",
+      "Walk a familiar route and take turns spotting each item.",
+      "Choose a favorite photo and give it a ridiculous title."
+    ],
+    "bring": "A phone or just sharp eyes"
+  },
+  {
+    "id": "3",
+    "title": "A picnic with no shopping trip",
+    "place": "out",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 90,
+    "icon": "☀",
+    "description": "Lunch tastes better on a blanket. Even leftovers.",
+    "steps": [
+      "Pack whatever you were going to eat at home.",
+      "Walk to a nearby free park or shared green space.",
+      "Let everyone choose one song for the picnic playlist."
+    ],
+    "bring": "Lunch from home and a blanket"
+  },
+  {
+    "id": "4",
+    "title": "Living room game tournament",
+    "place": "home",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 90,
+    "icon": "♧",
+    "description": "A little friendly competition. Extremely unofficial bragging rights.",
+    "steps": [
+      "Choose three games you already own, or try charades and tic-tac-toe.",
+      "Make a simple scoreboard and mix up teams.",
+      "Let the winner choose the next family movie."
+    ],
+    "bring": "Paper, a pencil, and your favorite games"
+  },
+  {
+    "id": "5",
+    "title": "Take the unfamiliar turn",
+    "place": "out",
+    "energy": "adventure",
+    "cost": 0,
+    "minutes": 90,
+    "icon": "↗",
+    "description": "A small adventure close to home, with no big expedition required.",
+    "steps": [
+      "Pick a public walking route you have not tried near home.",
+      "Set a turnaround time and bring water.",
+      "Find one interesting thing to tell everyone about afterward."
+    ],
+    "bring": "Comfortable shoes, water, and a familiar area"
+  },
+  {
+    "id": "6",
+    "title": "The tiny home café",
+    "place": "home",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 45,
+    "icon": "☕",
+    "description": "Your kitchen becomes the coziest spot in town.",
+    "steps": [
+      "Make a handwritten menu using drinks and snacks you already have.",
+      "Take turns being the customer and café host.",
+      "Play quiet music and enjoy an unhurried snack."
+    ],
+    "bring": "Your usual snacks and drinks"
+  },
+  {
+    "id": "7",
+    "title": "Cloud spotting club",
+    "place": "out",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 30,
+    "icon": "☁",
+    "description": "Your only assignment: look up and let your imagination wander.",
+    "steps": [
+      "Find a comfortable spot in a nearby free green space.",
+      "Take turns finding shapes in the clouds.",
+      "Make up a story starring the strangest cloud character."
+    ],
+    "bring": "A blanket, if you have one"
+  },
+  {
+    "id": "8",
+    "title": "Make a family time capsule",
+    "place": "home",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 60,
+    "icon": "✉",
+    "description": "Save a little snapshot of life right now for future you.",
+    "steps": [
+      "Write down everyone’s favorite food, song, and current obsession.",
+      "Add drawings or a small keepsake to an old box.",
+      "Label it with a date to open together next year."
+    ],
+    "bring": "An old box, paper, and pencils"
+  },
+  {
+    "id": "9",
+    "title": "A sunset worth stepping out for",
+    "place": "out",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 60,
+    "icon": "◒",
+    "description": "Give the last light of the day a little room in your schedule.",
+    "steps": [
+      "Choose a nearby public spot with an open view and free access.",
+      "Check sunset time and head out while it is still light.",
+      "Bring water and share the best moment of your week."
+    ],
+    "bring": "Water and a light layer"
+  },
+  {
+    "id": "10",
+    "title": "Build a blanket hideaway",
+    "place": "home",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 60,
+    "icon": "⌂",
+    "description": "A change of scenery without even leaving the living room.",
+    "steps": [
+      "Drape blankets safely over sturdy chairs.",
+      "Fill your hideaway with cushions and books.",
+      "Read together or take turns telling a made-up story."
+    ],
+    "bring": "Blankets, cushions, and sturdy chairs"
+  },
+  {
+    "id": "11",
+    "title": "The backyard mini Olympics",
+    "place": "home",
+    "energy": "adventure",
+    "cost": 0,
+    "minutes": 60,
+    "icon": "⚑",
+    "description": "Big sporting energy. Very small sporting arena.",
+    "steps": [
+      "Choose gentle events: sock toss, balance walk, and a silly dance-off.",
+      "Clear enough space and adapt events for everyone.",
+      "Make paper medals for effort, style, and funniest moment."
+    ],
+    "bring": "Rolled socks, paper, and clear space"
+  },
+  {
+    "id": "12",
+    "title": "Explore a library together",
+    "place": "out",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 90,
+    "icon": "▤",
+    "description": "Let everyone follow their curiosity for an hour.",
+    "steps": [
+      "Check your local library’s opening hours and free access.",
+      "Each person picks a book for someone else.",
+      "Find a comfy corner and share the most surprising discovery."
+    ],
+    "bring": "A library card if you want to borrow"
+  },
+  {
+    "id": "13",
+    "title": "A tiny nature expedition",
+    "place": "out",
+    "energy": "adventure",
+    "cost": 0,
+    "minutes": 120,
+    "icon": "♧",
+    "description": "Find a little wilderness without going far off the beaten path.",
+    "steps": [
+      "Choose a short, marked, free local trail suited to everyone.",
+      "Check conditions, daylight, and access before leaving.",
+      "Bring water and spot five different plants without picking them."
+    ],
+    "bring": "Water, suitable shoes, and a checked route"
+  },
+  {
+    "id": "14",
+    "title": "Draw each other badly",
+    "place": "home",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 30,
+    "icon": "✎",
+    "description": "The worse the portraits, the better the gallery.",
+    "steps": [
+      "Grab scrap paper and set a two-minute timer.",
+      "Draw each other without looking at the paper.",
+      "Give your masterpieces fancy names and host a gallery tour."
+    ],
+    "bring": "Scrap paper and pencils"
+  },
+  {
+    "id": "15",
+    "title": "Pantry mystery challenge",
+    "place": "home",
+    "energy": "adventure",
+    "cost": 0,
+    "minutes": 60,
+    "icon": "✦",
+    "description": "Make something new with ingredients already waiting in your kitchen.",
+    "steps": [
+      "Choose three ingredients you already have and can safely eat.",
+      "Work together on a snack using those ingredients.",
+      "Taste it and invent a name for your creation."
+    ],
+    "bring": "Pantry ingredients and adult help for cooking"
+  },
+  {
+    "id": "16",
+    "title": "A five-dollar treat walk",
+    "place": "out",
+    "energy": "easy",
+    "cost": 5,
+    "minutes": 60,
+    "icon": "☀",
+    "description": "A stroll, a shared treat, and nowhere urgent to be.",
+    "steps": [
+      "Set a total spending limit of $5 before you leave.",
+      "Walk to a nearby shop and check prices first.",
+      "Share a treat within budget, then take the scenic route home."
+    ],
+    "bring": "Up to $5 total; prices vary"
+  },
+  {
+    "id": "17",
+    "title": "DIY pizza night",
+    "place": "home",
+    "energy": "easy",
+    "cost": 10,
+    "minutes": 90,
+    "icon": "◉",
+    "description": "Open a one-night-only pizzeria in your kitchen.",
+    "steps": [
+      "Check what bread, cheese, and toppings you already have.",
+      "Spend no more than $10 total on anything missing.",
+      "Let everyone decorate a portion and cook together."
+    ],
+    "bring": "Kitchen basics and up to $10 for ingredients"
+  },
+  {
+    "id": "18",
+    "title": "The coin-flip stroll",
+    "place": "out",
+    "energy": "adventure",
+    "cost": 0,
+    "minutes": 45,
+    "icon": "↔",
+    "description": "Let chance plan a very small adventure.",
+    "steps": [
+      "Start in a familiar, walkable public area.",
+      "Flip a coin at safe junctions: heads left, tails right.",
+      "Set a 20-minute turnaround alarm and use your map to head home."
+    ],
+    "bring": "A coin, water, and a map"
+  },
+  {
+    "id": "19",
+    "title": "Make your own radio show",
+    "place": "home",
+    "energy": "adventure",
+    "cost": 0,
+    "minutes": 45,
+    "icon": "♫",
+    "description": "Give your family a microphone and see where the conversation goes.",
+    "steps": [
+      "Choose a funny topic everyone has an opinion about.",
+      "Record a five-minute show on your phone.",
+      "Listen back together; keep the recording private or delete it."
+    ],
+    "bring": "A phone with a voice recorder"
+  },
+  {
+    "id": "20",
+    "title": "A slow morning story swap",
+    "place": "home",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 30,
+    "icon": "☕",
+    "description": "No big plan. Just a little time to hear each other.",
+    "steps": [
+      "Get comfortable with a drink you already have.",
+      "Ask everyone for a funny memory or a dream day out.",
+      "Pick one free idea to try on another weekend."
+    ],
+    "bring": "A comfortable place to sit"
+  },
+  {
+    "id": "21",
+    "title": "Paper airplane test pilots",
+    "place": "home",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 45,
+    "icon": "➤",
+    "description": "Build, fly, adjust. Your hallway is now a research lab.",
+    "steps": [
+      "Fold airplanes from spare paper.",
+      "Mark a clear landing zone away from faces and breakables.",
+      "Try different folds and see which lands closest."
+    ],
+    "bring": "Spare paper and clear floor space"
+  },
+  {
+    "id": "22",
+    "title": "A color-themed wander",
+    "place": "out",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 30,
+    "icon": "✿",
+    "description": "Pick a color. Suddenly, the whole neighborhood is a treasure hunt.",
+    "steps": [
+      "Let someone choose today’s color.",
+      "Take a short, easy walk and spot as many matches as you can.",
+      "Vote for the most unexpected find."
+    ],
+    "bring": "A nearby accessible walking route"
+  },
+  {
+    "id": "23",
+    "title": "Thrift-store treasure challenge",
+    "place": "out",
+    "energy": "adventure",
+    "cost": 10,
+    "minutes": 90,
+    "icon": "✧",
+    "description": "Go looking for the oddest little treasure with a firm spending cap.",
+    "steps": [
+      "Set a shared $10 limit, with no pressure to buy.",
+      "Find the funniest mug, strangest ornament, and best book cover.",
+      "Show each other your finds before deciding whether to buy anything."
+    ],
+    "bring": "Up to $10 total, plus any transport costs"
+  },
+  {
+    "id": "24",
+    "title": "Homemade puzzle afternoon",
+    "place": "home",
+    "energy": "lazy",
+    "cost": 5,
+    "minutes": 60,
+    "icon": "▧",
+    "description": "A quiet little project for a low-energy day.",
+    "steps": [
+      "Draw a picture on spare cardboard, or use a cereal box.",
+      "Have an adult cut it into puzzle pieces.",
+      "Swap puzzles and put them back together."
+    ],
+    "bring": "Cardboard, pencils, scissors; up to $5 if needed"
+  }
+]

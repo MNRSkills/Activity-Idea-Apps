@@ -1,0 +1,20 @@
+{
+  "name": "little-weekends",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env server/index.js",
+    "start": "node --env-file-if-exists=.env server/index.js --production",
+    "build": "vite build",
+    "test": "node --test server/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  }
+}
