@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Activity Ideas//Atlas Session//EN
+BEGIN:VEVENT
+UID:atlas-api-20261014T180000@activity-ideas.local
+DTSTAMP:20261014T000000Z
+DTSTART:20261015T010000Z
+DTEND:20261015T020000Z
+SUMMARY:Connect Activity Ideas API to MongoDB Atlas
+DESCRIPTION:Connect the Node.js API to Atlas. Verify database and collection
+ names\, configure local .env credentials\, install the MongoDB driver\, and
+ verify the activity with id 25 appears through the API and frontend.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Atlas API connection session starts in 10 minutes.
+END:VALARM
+END:VEVENT
+END:VCALENDAR

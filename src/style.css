@@ -522,3 +522,10 @@ footer {
     gap: 5px;
   }
 }
+
+.activity-form { max-width: 760px; margin: 0 auto 48px; padding: 32px; background: #fffdf7; border: 1px solid #ddd9ca; border-radius: 20px; }
+.activity-form fieldset { border: 0; padding: 0; margin: 20px 0 0; }
+.activity-form label { display: grid; gap: 8px; margin: 16px 0; font-weight: 600; }
+.activity-form input, .activity-form textarea, .activity-form select { width: 100%; box-sizing: border-box; padding: 12px; border: 1px solid #c9c5b8; border-radius: 8px; font: inherit; background: white; color: #263c32; }
+.activity-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; }
+@media(max-width: 600px) { .activity-fields { grid-template-columns: 1fr; } .activity-form { padding: 20px; } }

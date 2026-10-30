@@ -1,0 +1,290 @@
+[
+  {
+    "id": "extra-1",
+    "title": "The one-song dance party",
+    "place": "home",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 15,
+    "icon": "✦",
+    "description": "Give everyone one song to take over the living room.",
+    "steps": [
+      "Clear a safe patch of floor.",
+      "Take turns choosing a song and teaching a silly move.",
+      "Finish with a group dance and a water break."
+    ],
+    "bring": "Music and a little floor space"
+  },
+  {
+    "id": "extra-2",
+    "title": "Sock puppet comedy club",
+    "place": "home",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 45,
+    "icon": "✦",
+    "description": "Turn spare socks into characters with very questionable jokes.",
+    "steps": [
+      "Choose clean socks and give each character a name.",
+      "Invent a short scene together without attaching small decorations.",
+      "Perform behind the couch and let the audience suggest an ending."
+    ],
+    "bring": "Clean socks and a couch"
+  },
+  {
+    "id": "extra-3",
+    "title": "The imaginary vacation",
+    "place": "home",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 45,
+    "icon": "✦",
+    "description": "Travel somewhere new using stories, drawings, and your imagination.",
+    "steps": [
+      "Pick a place you would love to visit.",
+      "Draw a pretend postcard and plan a day there.",
+      "Take turns describing the best imaginary moment."
+    ],
+    "bring": "Paper and pencils"
+  },
+  {
+    "id": "extra-4",
+    "title": "Indoor bowling league",
+    "place": "home",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 30,
+    "icon": "✦",
+    "description": "A hallway championship with a soft ball and homemade pins.",
+    "steps": [
+      "Stand empty plastic bottles in a clear space.",
+      "Roll a soft ball gently from a marked line.",
+      "Change the distance so everyone gets a fair challenge."
+    ],
+    "bring": "Empty plastic bottles and a soft ball"
+  },
+  {
+    "id": "extra-5",
+    "title": "Make a tiny comic book",
+    "place": "home",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 45,
+    "icon": "✦",
+    "description": "Give an ordinary household object its own superhero story.",
+    "steps": [
+      "Fold scrap paper into a small booklet.",
+      "Pick a household object as the hero and draw three scenes.",
+      "Swap comics and read them in your best dramatic voice."
+    ],
+    "bring": "Scrap paper and pencils"
+  },
+  {
+    "id": "extra-6",
+    "title": "The great cushion island",
+    "place": "home",
+    "energy": "adventure",
+    "cost": 0,
+    "minutes": 30,
+    "icon": "✦",
+    "description": "Invent a gentle floor-level adventure across a pretend ocean.",
+    "steps": [
+      "Place cushions flat on a clear floor away from furniture edges.",
+      "Walk slowly between islands without jumping or climbing.",
+      "Add a story about rescuing a stranded stuffed animal."
+    ],
+    "bring": "Cushions and a stuffed animal"
+  },
+  {
+    "id": "extra-7",
+    "title": "Kitchen table trivia night",
+    "place": "home",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 45,
+    "icon": "✦",
+    "description": "The best questions are about the people sitting at the table.",
+    "steps": [
+      "Everyone writes three friendly questions about their favorite things.",
+      "Take turns guessing answers without keeping serious score.",
+      "Let each person explain their funniest answer."
+    ],
+    "bring": "Paper and pencils"
+  },
+  {
+    "id": "extra-8",
+    "title": "Design a family board game",
+    "place": "home",
+    "energy": "adventure",
+    "cost": 0,
+    "minutes": 90,
+    "icon": "✦",
+    "description": "Make the rules, test them, and change anything that is not fun.",
+    "steps": [
+      "Draw a simple path on scrap cardboard.",
+      "Use large household objects as pieces and write silly challenge cards.",
+      "Play a short round and improve one rule together."
+    ],
+    "bring": "Cardboard, pencils, and large game pieces"
+  },
+  {
+    "id": "extra-9",
+    "title": "Paper bag costume parade",
+    "place": "home",
+    "energy": "easy",
+    "cost": 5,
+    "minutes": 60,
+    "icon": "✦",
+    "description": "Create a ridiculous outfit from clothes and craft supplies you already own.",
+    "steps": [
+      "Choose old clothes and safe supplies; skip bags over heads or faces.",
+      "Design a character and make a paper badge or hat.",
+      "Hold a living room parade with an announcer for every outfit."
+    ],
+    "bring": "Old clothes and paper; spend no more than $5 total"
+  },
+  {
+    "id": "extra-10",
+    "title": "Build a cardboard town",
+    "place": "home",
+    "energy": "adventure",
+    "cost": 5,
+    "minutes": 90,
+    "icon": "✦",
+    "description": "Give empty boxes a second life as a miniature neighborhood.",
+    "steps": [
+      "Collect clean boxes and let an adult handle cutting.",
+      "Draw roads and add houses, a park, and a favorite shop.",
+      "Invent characters and give them a tiny adventure."
+    ],
+    "bring": "Clean boxes, pencils, tape; up to $5 total if needed"
+  },
+  {
+    "id": "extra-11",
+    "title": "The five-dollar art challenge",
+    "place": "home",
+    "energy": "lazy",
+    "cost": 5,
+    "minutes": 60,
+    "icon": "✦",
+    "description": "Make a small gallery using mostly materials already at home.",
+    "steps": [
+      "Gather scrap paper and pencils before buying anything.",
+      "Set a shared $5 cap for any missing supplies.",
+      "Create art on one theme and give every piece a title."
+    ],
+    "bring": "Scrap paper and art supplies; up to $5 total"
+  },
+  {
+    "id": "extra-12",
+    "title": "Ten-dollar shared snack lab",
+    "place": "home",
+    "energy": "easy",
+    "cost": 10,
+    "minutes": 60,
+    "icon": "✦",
+    "description": "Turn one small shopping budget into a tasting adventure.",
+    "steps": [
+      "Check dietary needs and what is already in the kitchen.",
+      "Choose missing ingredients within a $10 total limit.",
+      "Build three snack combinations and vote on a favorite."
+    ],
+    "bring": "Kitchen supplies and up to $10 total for ingredients"
+  },
+  {
+    "id": "extra-13",
+    "title": "Alphabet spotting walk",
+    "place": "out",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 45,
+    "icon": "✦",
+    "description": "Find the alphabet hiding in familiar streets.",
+    "steps": [
+      "Choose a familiar accessible public route.",
+      "Spot letters on signs in alphabetical order while staying on sidewalks.",
+      "Stop at your turnaround time even if you have not reached Z."
+    ],
+    "bring": "Comfortable shoes and water"
+  },
+  {
+    "id": "extra-14",
+    "title": "Bench-side people stories",
+    "place": "out",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 30,
+    "icon": "✦",
+    "description": "Make up kind fictional stories inspired by the world passing by.",
+    "steps": [
+      "Find a free public bench in a familiar area.",
+      "Invent a completely fictional character inspired by a color or object you see.",
+      "Take turns adding a cheerful twist without photographing strangers."
+    ],
+    "bring": "A comfortable public spot"
+  },
+  {
+    "id": "extra-15",
+    "title": "Bird-listening break",
+    "place": "out",
+    "energy": "lazy",
+    "cost": 0,
+    "minutes": 30,
+    "icon": "✦",
+    "description": "Slow down and notice the sounds you usually walk past.",
+    "steps": [
+      "Pick a nearby free green space during daylight.",
+      "Sit quietly and count different bird sounds without approaching wildlife.",
+      "Describe your favorite sound using the funniest words possible."
+    ],
+    "bring": "Water and a comfortable place to sit"
+  },
+  {
+    "id": "extra-16",
+    "title": "Playground challenge cards",
+    "place": "out",
+    "energy": "adventure",
+    "cost": 0,
+    "minutes": 60,
+    "icon": "✦",
+    "description": "Make a familiar park feel like a fresh adventure.",
+    "steps": [
+      "Choose a free playground suited to the children joining you.",
+      "Invent age-appropriate challenges using equipment as intended.",
+      "Take turns choosing the next challenge and pause for water."
+    ],
+    "bring": "Water and a suitable nearby playground"
+  },
+  {
+    "id": "extra-17",
+    "title": "The local landmark sketch",
+    "place": "out",
+    "energy": "easy",
+    "cost": 0,
+    "minutes": 60,
+    "icon": "✦",
+    "description": "Draw a familiar place as if it belongs on a postcard.",
+    "steps": [
+      "Pick a nearby publicly accessible landmark with free entry.",
+      "Sketch from a safe spot without blocking paths.",
+      "Swap drawings and explain one detail you noticed."
+    ],
+    "bring": "Paper, pencils, and water"
+  },
+  {
+    "id": "extra-18",
+    "title": "Ten-dollar picnic upgrade",
+    "place": "out",
+    "energy": "lazy",
+    "cost": 10,
+    "minutes": 75,
+    "icon": "✦",
+    "description": "Bring lunch from home and add one small shared extra.",
+    "steps": [
+      "Pack your usual lunch and water from home.",
+      "Choose a free nearby picnic spot and check access.",
+      "Spend up to $10 total on an optional shared extra after checking prices."
+    ],
+    "bring": "Lunch, blanket, water; up to $10 total plus any travel costs"
+  }
+]

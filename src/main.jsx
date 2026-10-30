@@ -13,6 +13,43 @@ const energyNames = {
   easy: "A little energy",
   adventure: "A little adventure",
 };
+function ActivityForm({ onCreated }) {
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
+  async function submit(event) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const values = Object.fromEntries(new FormData(form));
+    const body = { ...values, cost: Number(values.cost), minutes: Number(values.minutes),
+      steps: [values.step1, values.step2, values.step3] };
+    setBusy(true); setError("");
+    try {
+      const { idea } = await api("/api/ideas", {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
+      });
+      onCreated(idea);
+    } catch (e) { setError(e.message); }
+    finally { setBusy(false); }
+  }
+  return <form className="activity-form" onSubmit={submit}>
+    <h2>Add a little plan</h2>
+    <p>Save a new activity for your next free afternoon.</p>
+    {error && <p className="error" role="alert">{error}</p>}
+    <fieldset disabled={busy}>
+      <label>Activity title<input name="title" required maxLength={120} /></label>
+      <label>Description<textarea name="description" required maxLength={500} rows={3} /></label>
+      <div className="activity-fields">
+        <label>Where<select name="place"><option value="home">At home</option><option value="out">Out & about</option></select></label>
+        <label>Energy<select name="energy">{Object.entries(energyNames).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
+        <label>Total cost ($)<input name="cost" type="number" min="0" max="10" step="0.01" defaultValue="0" required /></label>
+        <label>Duration (minutes)<input name="minutes" type="number" min="1" max="1440" defaultValue="30" required /></label>
+      </div>
+      {[1, 2, 3].map((n) => <label key={n}>Step {n}<input name={`step${n}`} required maxLength={300} /></label>)}
+      <label>Bring along<input name="bring" required maxLength={250} /></label>
+      <button className="generate" type="submit">{busy ? "Saving your activity…" : "Save activity"}<span>↗</span></button>
+    </fieldset>
+  </form>;
+}
 function App() {
   const [filters, setFilters] = useState({
       place: "any",
@@ -131,13 +168,14 @@ function App() {
           >
             ♡ Saved <span className="count">{favorites.length}</span>
           </button>
+          <button className={page === "add" ? "active" : ""} onClick={() => { setPage("add"); setError(""); }}>+ Add idea</button>
         </nav>
       </header>
       <main>
         <section className="intro">
           <div className="eyebrow">LESS SCROLLING. MORE LIVING.</div>
           <h1>
-            {page === "discover" ? (
+            {page === "add" ? <>A little idea.<br /><em>A good day ahead.</em></> : page === "discover" ? (
               <>
                 Good days don’t need
                 <br />a <em>big plan.</em>
@@ -151,7 +189,7 @@ function App() {
             )}
           </h1>
           <p>
-            {page === "discover"
+            {page === "add" ? "Turn your own idea into a plan worth sharing." : page === "discover"
               ? "Free afternoons, lazy Sundays, and little family adventures.\nFind something to do that feels like you."
               : "Your saved ideas, ready for the next “what should we do?”"}
           </p>
@@ -161,7 +199,9 @@ function App() {
             {error}
           </div>
         )}
-        {page === "discover" ? (
+        {page === "add" ? <ActivityForm onCreated={(created) => {
+          setIdea(created); setStarted(true); setTotal(null); setPage("discover"); setError("");
+        }} /> : page === "discover" ? (
           <div className="workspace">
             <aside>
               <div className="panel-heading">
@@ -240,7 +280,7 @@ function App() {
               <div className="result-label">
                 <span>02 / YOUR LITTLE PLAN</span>
                 <span>
-                  {started ? `${total} matching ideas` : "A little possibility"}
+                  {started ? (total === null ? "Activity saved" : `${total} matching ideas`) : "A little possibility"}
                 </span>
               </div>
               {idea ? (

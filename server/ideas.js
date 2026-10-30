@@ -22,14 +22,18 @@ export function buildFilter(query) {
   return filter;
 }
 
-export function randomIdea(query, catalog = ideas) {
+export function listIdeas(query = {}, catalog = ideas) {
   const filter = buildFilter(query);
-  const matches = catalog.filter(
+  return catalog.filter(
     (idea) =>
       (!filter.place || idea.place === filter.place) &&
       (!filter.energy || idea.energy === filter.energy) &&
       (filter.budget === undefined || idea.cost <= filter.budget),
   );
+}
+
+export function randomIdea(query, catalog = ideas) {
+  const matches = listIdeas(query, catalog);
   const choices =
     matches.length > 1
       ? matches.filter((idea) => idea.id !== query.exclude)
